@@ -15,6 +15,8 @@
 7.正式集群下线（所有流量访问灰度集群）    
 8.正式集群上线（所有流量访问正式和灰度集群）
 
+![../statics/canary-deploy-flow.PNG](../statics/canary-deploy-flow.PNG)
+
 ## docker-nginx
 使用nginx的负载均衡实现灰度发布
 
