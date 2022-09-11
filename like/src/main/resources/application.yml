@@ -19,6 +19,6 @@ spring:
       db-type: com.alibaba.druid.pool.DruidDataSource
       url: jdbc:mysql://localhost:3806/community?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
       username: root
-  mybatis:
-    configuration:
-      map-underscore-to-camel-case: true
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
